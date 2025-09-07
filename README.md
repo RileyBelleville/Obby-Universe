@@ -15,3 +15,9 @@ rojo serve
 ```
 
 For more help, check out [the Rojo documentation](https://rojo.space/docs).
+
+## Folder structure
+
+- `ReplicatedStorage` – shared modules accessible to both client and server
+- `ServerScriptService` – server-side scripts
+- `StarterPlayer/StarterPlayerScripts` – client-side scripts loaded for each player
